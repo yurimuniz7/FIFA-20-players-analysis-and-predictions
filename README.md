@@ -40,3 +40,5 @@ Under development...
 **Packages**: numpy, scipy, pandas, scikit-learn, matplotlib, seaborn, xgboost, pickle, requests, flask, json
 
 **Resources**: All references used in this project can be found inside the jupyter notebooks as hyperlinks.
+
+If you have any problems trying to visualize the jupyter notebooks, try copying the URL into this website: https://nbviewer.jupyter.org/.
