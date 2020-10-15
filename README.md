@@ -34,6 +34,9 @@ Under development...
 ### Code and resources used
 
 **Anaconda version**: Anaconda3-2020.07
+
 **Python version**: 3.7.1
+
 **Packages**: numpy, scipy, pandas, scikit-learn, matplotlib, seaborn, xgboost, pickle, requests, flask, json
+
 **Resources**: All references used in this project can be found inside the jupyter notebooks as hyperlinks.
