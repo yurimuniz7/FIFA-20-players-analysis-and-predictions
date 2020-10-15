@@ -2,7 +2,7 @@
 
 A machine learning application to help FIFA 20 career mode players to better negotiate wages, and know what position they can use their player besides the ones suggested by the game. This repository also contains the code for scraping the relevant data from [FIFA Index website](https://www.fifaindex.com/) and a lot of interesting players data analysis.
 
-**Important note**: with the release of FIFA 21, some of the analysis and predictions made here will soon be outdated. However, it is very simple to rerun the code once the information about players is updated on FIFA Index website.
+**Important note**: with the release of FIFA 21, some of the analysis made here is outdated. However, the models can still be used since the game basically did not change this year (again! :joy:). It is also very simple to rerun the code using the FIFA Index updated players information.
 
 ## 1 - Web Scraping
 
@@ -19,8 +19,21 @@ All the analysis and visualizations can be found in one file:
 
 ## 3 - Machine learning models for predicting player wages and preferred positions
 
+The models were developed and pickled in the following file:
+
+- **ML_model_development.ipynb**: jupyter notebook containing details about the development of the predictors. There is also one section devoted to the data preparation for the Flask API
+
+## 4 - Deploy of the model as an API
+
+An API endpoint that can be hosted on a local webserver can be found at the **FlaskAPI** directory. The API takes in a request with a list of a given player's attributes and returns an estimated wage and his (ordered) best positions. The API was made using the flask package for python.
+
+## 5 - Web application for predicting players wages and positions
+
 Under development...
 
-## 4 - Deploy of the model as an user application
+### Code and resources used
 
-Under development...
+**Anaconda version**: Anaconda3-2020.07
+**Python version**: 3.7.1
+**Packages**: numpy, scipy, pandas, scikit-learn, matplotlib, seaborn, xgboost, pickle, requests, flask, json
+**Resources**: All references used in this project can be found inside the jupyter notebooks as hyperlinks.
