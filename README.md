@@ -1,6 +1,6 @@
 # FIFA 20 players data analysis and predictions
 
-A machine learning application to help FIFA 20 career mode players to better negotiate wages, and know what position they can use their player besides the ones suggested by the game. This repository also contains the code for scraping the relevant data from [FIFA Index website](https://www.fifaindex.com/) and a lot of interesting players data analysis.
+A machine learning application to help FIFA 20 career mode players to better negotiate wages, and know what positions they can use their players besides the ones suggested by the game. This repository also contains the code for scraping the relevant data from [FIFA Index website](https://www.fifaindex.com/) and a lot of interesting players data analysis.
 
 **Important note**: with the release of FIFA 21, some of the analysis made here is outdated. However, the models can still be used since the game basically did not change this year (again! :joy:). It is also very simple to rerun the code using the FIFA Index updated players information.
 
@@ -29,7 +29,9 @@ An API endpoint that can be hosted on a local webserver can be found at the **Fl
 
 ## 5 - Web application for predicting players wages and positions
 
-Under development...
+A web application can be found at the **Streamlit_Webapp** directory. The app provides a simple user interface for getting wage and positions predictions of a given player. The user can change the player's attributes in an interactive way and get the result by a simple click of a buttom. The web app was made using the streamlit package for python.
+
+The web application will soon be hosted in the cloud using AWS. The link will be provided here soon.
 
 ### Code and resources used
 
@@ -37,7 +39,7 @@ Under development...
 
 **Python version**: 3.7.1
 
-**Packages**: numpy, scipy, pandas, scikit-learn, matplotlib, seaborn, xgboost, pickle, requests, flask, json
+**Packages**: numpy, scipy, pandas, scikit-learn, matplotlib, seaborn, xgboost, pickle, requests, flask, json, streamlit
 
 **Resources**: All references used in this project can be found inside the jupyter notebooks as hyperlinks.
 
