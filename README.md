@@ -1,6 +1,6 @@
 # FIFA 20 players data analysis and predictions
 
-A machine learning application to help FIFA 20 career mode players to better negotiate wages, and know what positions they can use their players besides the ones suggested by the game. This repository also contains the code for scraping the relevant data from [FIFA Index website](https://www.fifaindex.com/) and a lot of interesting players data analysis.
+A machine learning application to help FIFA 20 career mode players to better negotiate wages, and know what positions they can use their players besides the ones suggested by the game. This repository also contains the code for scraping the relevant data from [FIFA Index website](https://www.fifaindex.com/) and a lot of interesting players data analysis. The app can be accessed in [this server](http://54.94.42.83).
 
 **Important note**: with the release of FIFA 21, some of the analysis made here is outdated. However, the models can still be used since the game basically did not change this year (again! :joy:). It is also very simple to rerun the code using the FIFA Index updated players information.
 
@@ -31,7 +31,7 @@ An API endpoint that can be hosted on a local webserver can be found at the **Fl
 
 A web application can be found at the **Streamlit_Webapp** directory. The app provides a simple user interface for getting wage and positions predictions of a given player. The user can change the player's attributes in an interactive way and get the result by a simple click of a buttom. The web app was made using the streamlit package for python.
 
-The web application will soon be hosted in the cloud using AWS. The link will be provided here soon.
+The web application is hosted in an AWS EC2 instance and can be accessed in [this link](http://54.94.42.83). I'm having issues on the routing process to a domain name for now, so that I have to provide the EC2 instance public IP to the users. If you have any tips on how to correctly use the AWS Route 53 service you can contact me, I would appreciate any help.
 
 ### Code and resources used
 
